@@ -1,4 +1,4 @@
-(function() {
+(() => {
     'use strict';
     
     //
@@ -56,9 +56,6 @@
       }
     }).setView([48.861920, 2.341755], 18)
     
-    // map.on('ready', function() { console.log('map.ready') });
-    
-    // https://github.com/bbecquet/Leaflet.PolylineDecorator
     L.RotatedMarker = L.Marker.extend({
       options: { angle: 0 },
       _setPos: function(pos) {
