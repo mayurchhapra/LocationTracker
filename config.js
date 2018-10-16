@@ -1,9 +1,10 @@
-var config = {
-    firebase: 'live-track-1533559724269',
+
+const config = {
+    firebase: process.env.FIREBASE,
     mapbox: {
-        accessToken: 'pk.eyJ1IjoibWF5dXJjaGhhcHJhIiwiYSI6ImNqa2pobHplbDFmdGUzcm85Z2ZzYWpwNzAifQ.tqIKV_STkwiZa--ZUh3Qgw',
-        mapId: 'mattketmo.locpi8o0',
+        accessToken: process.env.ACCESSTOKEN,
+        mapId: process.env.MAPID,
     },
-    analytics: 'UA-23657373-6',
+    analytics: process.env.ANALYTICS,
   }
-  
+  ``
